@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="music-player">
+      <h1>Music App</h1>
+
+      <!-- Картинка текущего трека -->
+      <img id="track-img" src="image.png" alt="Album Cover" class="cover">
+
+      <!-- Название трека -->
+      <div class="song-info">
+        <h2 id="track-name">Janze</h2>
+        <p id="artist-name">Xamdam Sobirov</p>
+      </div>
+
+      <!-- Кнопки управления -->
+      <button onclick="previous()">Previous</button>
+      <button onclick="playAudio()" id="play">Play</button>
+      <button onclick="pauseAudio()" id="pause">Pause</button>
+      <button onclick="next()">Next</button>
+
+      <!-- Прогресс -->
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+
+      <!-- Аудио -->
+      <audio id="audio"></audio>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+    "musics": [
+      {
+        "id": 1,
+        "name": "Macan",
+        "img": {
+          "url": "image copy.png"
+        },
+        "audio": {
+          "url": "music/Macan - Кино.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Macan",
+        "img": {
+          "url": "image.png"
+        },
+        "audio": {
+          "url": "music/Macan - Другое.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "name": "i dontknow",
+        "img": {
+          "url": "image copy 2.png"
+        },
+        "audio": {
+          "url": "music/Unknown.mp3"
+        }
+      }
+    ]
+  }
+  
